@@ -164,20 +164,20 @@
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
+        <li>SFLEX (RB/WR/TE/QB)</li>
         <li>D/ST</li>
         <li>K</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>14 Bench </p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>3 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
         <div class="subBlock">
             <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
+                <tr><td>QB</td><td class="right">2 active, 5 total</td></tr>
                 <tr><td>RB</td><td class="right">20</td></tr>
                 <tr><td>WR</td><td class="right">20</td></tr>
                 <tr><td>TE</td><td class="right">10</td></tr>
@@ -189,7 +189,7 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will be processed immediately unless a league member has concerns of collusion or ill-intent, in which case trade will be put to a league-wide vote. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
@@ -232,7 +232,7 @@
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed.</p>
 
     <p>FAAB budgets will reset each season in January.</p>
     
@@ -252,7 +252,7 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical PPR Scoring). The scoring system will never change without a majority league vote.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
@@ -290,14 +290,15 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at {dues}$. Dues are collected through Cash App/Venmo and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
+        <li>1st place: {dues * 5.93}$</li>
+        <li>2nd place: {dues * 2.66}$</li>
         <li>3rd place: {dues}$</li>
+	<li>Weekly high scorer: {dues / 7.5}$</li>   
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
