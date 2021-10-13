@@ -295,8 +295,8 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 5.93}$</li>
-        <li>2nd place: {dues * 2.66}$</li>
+        <li>1st place: {445}$</li>
+        <li>2nd place: {200}$</li>
         <li>3rd place: {dues}$</li>
 	<li>Weekly high scorer: {dues / 7.5}$</li>   
     </ul>
